@@ -83,7 +83,7 @@ DATABASES = {
     #    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS':{'read_default_file': os.path.join(BASE_DIR, 'database.cnf'),}
+        #'OPTIONS':{'read_default_file': os.path.join(BASE_DIR, 'database.cnf'),}
         #数据库名
         'NAME' : 'FurnitureInventory',
         'USER' : 'root',
